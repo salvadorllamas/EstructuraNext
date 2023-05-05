@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { ReactNode } from "react";
 import { Navbar } from "../ui/Navbar";
-import { type } from "os";
 
 interface MyComponentProps {
   children: ReactNode;

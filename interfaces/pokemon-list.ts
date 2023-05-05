@@ -1,4 +1,3 @@
-import { Image } from "@nextui-org/react";
 export interface PokemonListResponse {
   count: number;
   next?: string;
@@ -8,7 +7,7 @@ export interface PokemonListResponse {
 
 export interface SmallPokemon {
   name: string;
-  url: string;
+  url:string;
   id: number;
-  img: string;
+  img:string;
 }
